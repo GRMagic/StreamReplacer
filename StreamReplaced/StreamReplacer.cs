@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StreamReplaced
 {
-    public class StreamReplaced : Stream
+    public class StreamReplacer : Stream
     {
         private Stream BaseStream;
         
@@ -16,7 +16,7 @@ namespace StreamReplaced
 
         private Dictionary<byte[], byte[]> KeyValuePairs = new Dictionary<byte[], byte[]>();
 
-        public StreamReplaced(Stream baseStream)
+        public StreamReplacer(Stream baseStream)
         {
             this.BaseStream = baseStream ?? throw new ArgumentNullException("baseStream", "Null streams are not allowed.");
         }

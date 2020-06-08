@@ -32,7 +32,7 @@ namespace StreamReplaced.Test
             var bTo = Encoding.UTF8.GetBytes(to);
 
             // Act
-            var result = StreamReplaced.ByteReplace(bContent, bFrom, bTo, start, end ?? bContent.Length);
+            var result = StreamReplacer.ByteReplace(bContent, bFrom, bTo, start, end ?? bContent.Length);
 
             //Assert
             var sResult = Encoding.UTF8.GetString(result);
@@ -63,7 +63,7 @@ namespace StreamReplaced.Test
         {
             // Arrange
             var stream = GenerateStreamFromString(content);
-            var sReplaced = new StreamReplaced(stream);
+            var sReplaced = new StreamReplacer(stream);
 
             var bFrom = Encoding.UTF8.GetBytes(from);
             var bTo = Encoding.UTF8.GetBytes(to);
