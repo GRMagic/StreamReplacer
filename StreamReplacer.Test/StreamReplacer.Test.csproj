@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StreamReplaced\StreamReplacer.csproj" />
+    <ProjectReference Include="..\StreamReplacer\StreamReplacer.csproj" />
   </ItemGroup>
 
 </Project>

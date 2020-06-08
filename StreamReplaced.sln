@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReplacer", "StreamReplaced\StreamReplacer.csproj", "{FA548C5A-5FB9-46B1-AF1B-B6707666F60D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReplacer", "StreamReplacer\StreamReplacer.csproj", "{FA548C5A-5FB9-46B1-AF1B-B6707666F60D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReplacer.Test", "StreamReplaced.Test\StreamReplacer.Test.csproj", "{056470D6-700D-4A4B-BF58-39D6CB48CCD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReplacer.Test", "StreamReplacer.Test\StreamReplacer.Test.csproj", "{056470D6-700D-4A4B-BF58-39D6CB48CCD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
